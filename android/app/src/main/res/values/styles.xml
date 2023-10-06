@@ -1,0 +1,18 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:datePickerDialogTheme">@style/Dialog.Theme</item>
+        <item name="android:timePickerDialogTheme">@style/Dialog.Theme</item>
+    </style>
+    <!-- Configuration for Dialog.theme. -->
+    <style name="Dialog.Theme" parent="Theme.AppCompat.DayNight.Dialog">
+        <!--COVI COLOR -->
+        <item name="colorAccent">#212428</item>
+        <!--NARET COLOR -->
+        <!--item name="colorAccent">#00558C</item> -->
+        <!-- Change textColor of the date modal -->
+        <item name="android:textColorPrimary">#000000</item>
+    </style>
+</resources>
+
